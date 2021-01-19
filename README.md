@@ -33,6 +33,17 @@ Currently, only some of the most popular consoles/systems are supported.
 
 More systems will be supported in the future.
 
+## Usage
+
+This theme was created on a 16:9 ratio screen, 4:3 ratio is not tested. The detailed view might look tiny on smaller displays.
+Set ON-SCREEN HELP -> OFF and TRANSITION STYLE -> SLIDE for best experience.
+
+## Screenshots
+
+![System View](/_inc/screenshots/SystemView.png?raw=true)
+![Basic View](/_inc/screenshots/BasicView.png?raw=true)
+![Detailed View](/_inc/screenshots/DetailedView.png?raw=true)
+
 ## Change Log
 Version 1.0 - 19/1/2020
 
