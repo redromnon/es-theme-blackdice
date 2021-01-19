@@ -1,0 +1,17 @@
+<theme>
+	
+	<formatVersion>4</formatVersion>
+	<include>./../blackdice.xml</include>
+	
+    <view name="system">         
+         <image name="logo">
+			<path>./system.svg</path>
+		</image>
+
+        <text name = "console_life" extra = "true">
+            <text>1985 - 1996</text>
+        </text>
+
+    </view>
+
+</theme>
