@@ -1,0 +1,14 @@
+<theme>
+	
+	<formatVersion>4</formatVersion>
+	<include>./../blackdice.xml</include>
+	
+    <view name="system">         
+         <text name="logoText">
+            <fontPath>./../_inc/fonts/Ubuntu-Bold.ttf</fontPath>
+            <forceUppercase>true</forceUppercase>
+            <color>216b99</color>
+        </text>   
+    </view>
+
+</theme>

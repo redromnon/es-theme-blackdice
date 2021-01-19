@@ -1,0 +1,12 @@
+<theme>
+	
+	<formatVersion>4</formatVersion>
+	<include>./../blackdice.xml</include>
+	
+    <view name="system">         
+         <image name="logo">
+		<path>./system.svg</path>
+	 </image>
+    </view>
+
+</theme>

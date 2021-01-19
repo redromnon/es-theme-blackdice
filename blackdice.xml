@@ -1,0 +1,231 @@
+<!--
+theme name:		blackdice
+version:		1.0
+author:			Rishabh Moharir		
+license:		
+based on:		"Carbon" by Eric Hettervik (Artwork)
+-->
+
+<theme>
+
+    <formatVersion>4</formatVersion>
+
+    <view name = "system, basic, detailed, grid">
+        
+        <image name = "background" extra = "true">
+            <path>./_inc/images/bg_color.png</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <size>1 1</size>
+            <tile>true</tile>
+            <color>1a1a1a</color>
+        </image>
+
+        <helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<fontPath>./_inc/fonts/Ubuntu-Medium.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</helpsystem>
+
+
+    </view>
+
+
+
+<!-- SYSTEM -->
+    <view name = "system">
+
+     <image name = "console_life_BACKGROUND" extra = "true">    
+            <path>./_inc/images/bg_color.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.37</pos>
+			<size>1 0.04</size>
+			<color>1a1a1a95</color>
+     </image>
+
+     
+     <text name = "console_life" extra = "true">
+            <fontPath>./_inc/fonts/Ubuntu-Bold.ttf</fontPath>
+            <fontSize>0.03</fontSize>
+            <origin>0.5 0.5</origin>            
+            <pos>0.5 0.37</pos>
+            <color>f2f2f2</color>
+     </text> 
+
+
+    </view>
+
+
+
+    <view name = "basic, detailed">
+
+        <text name="logoText">
+            <fontPath>./_inc/fonts/Ubuntu-Bold.ttf</fontPath>
+            <fontSize>0.075</fontSize>
+            <color>ffffff</color>
+            <pos>0 0</pos>
+            <forceUppercase>true</forceUppercase>
+        </text>    
+
+    </view>
+
+    
+    <view name = "basic">
+
+        <image name = "gamelist_BOX" extra = "true">
+            <path>./_inc/images/bg_color.png</path>
+            <origin>0 0</origin>
+			<pos>0.025 0.15</pos>
+			<size>0.95 0.75</size>
+			<color>000000</color>
+        </image>
+        
+        <textlist name="gamelist">
+			<selectorColor>f2f2f2</selectorColor>
+			<selectedColor>1a1a1a</selectedColor>
+			<primaryColor>e6e6e6</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/Ubuntu-Regular.ttf</fontPath>
+			<pos>0.025 0.15</pos>
+			<size>0.95 0.75</size>
+			<fontSize>0.035</fontSize>
+		</textlist>
+
+
+    </view>
+
+
+    
+    <view name = "detailed">
+
+        <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed">
+			<fontPath>./_inc/fonts/Ubuntu-Medium.ttf</fontPath>
+            <color>f2f2f2</color>
+            <fontSize>0.025</fontSize>
+		</text>
+
+            
+        <text name = "md_developer, md_publisher, md_genre">
+            <fontPath>./_inc/fonts/Ubuntu-Regular.ttf</fontPath>
+            <color>e6e6e6</color>
+            <fontSize>0.024</fontSize>
+            <alignment>center</alignment>
+            <lineSpacing>1</lineSpacing>
+        </text>
+
+        <datetime name="md_releasedate, md_lastplayed">
+			<fontPath>./_inc/fonts/Ubuntu-Regular.ttf</fontPath>
+            <color>e6e6e6</color>
+            <fontSize>0.024</fontSize>
+            <alignment>center</alignment>
+		</datetime>
+
+        <image name = "gamelist_BOX" extra = "true">
+            <path>./_inc/images/bg_color.png</path>
+            <origin>0 0</origin>
+			<pos>0.025 0.15</pos>
+			<size>0.295 0.75</size>
+			<color>000000</color>
+        </image>
+
+        <textlist name="gamelist">
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>1a1a1a</selectedColor>
+			<primaryColor>e6e6e6</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/Ubuntu-Regular.ttf</fontPath>
+			<pos>0.025 0.15</pos>
+			<size>0.295 0.75</size>
+			<fontSize>0.035</fontSize>
+            <alignment>center</alignment>
+		</textlist>
+
+        <image name = "metadata_BOX" extra = "true">
+            <path>./_inc/images/bg_color.png</path>
+            <origin>0 0</origin>
+			<pos>0.35 0.15</pos>
+			<size>0.24 0.75</size>
+			<color>000000</color>
+        </image>
+
+        <image name = "md_image">
+            <origin>0.5 0.5</origin>
+			<pos>0.47 0.36</pos>
+			<maxSize>0.18 0.36</maxSize>
+        </image>
+
+<!-- LABELS -->
+        <text name="md_lbl_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.56</pos>
+		</text>
+
+        <text name="md_lbl_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.63</pos>
+		</text>
+
+        <text name="md_lbl_publisher">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.7</pos>
+		</text>
+
+        <text name="md_lbl_genre">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.77</pos>
+		</text>
+
+         <text name="md_lbl_lastplayed">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.84</pos>
+		</text>
+
+<!-- DATA -->
+        <datetime name="md_releasedate">
+            <origin>0.5 0.5</origin>
+			<pos>0.47 0.593</pos>
+		</datetime>
+        
+        <text name="md_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.663</pos>
+		</text>
+
+        <text name="md_publisher">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.733</pos>
+		</text>
+
+        <text name="md_genre">
+			<origin>0.5 0.5</origin>
+			<pos>0.47 0.803</pos>
+		</text>
+
+        <datetime name="md_lastplayed">
+            <origin>0.5 0.5</origin>
+			<pos>0.47 0.873</pos>
+		</datetime>
+
+        <image name = "description_BOX" extra = "true">
+            <path>./_inc/images/bg_color.png</path>
+            <origin>0 0</origin>
+			<pos>0.62 0.15</pos>
+			<size>0.355 0.75</size>
+			<color>000000</color>
+        </image>    
+
+        <text name="md_description">
+			<pos>0.63 0.16</pos>
+			<size>0.34 0.67</size>
+			<color>e6e6e6</color>
+			<fontPath>./_inc/fonts/Ubuntu-Light.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>2</lineSpacing>
+		</text>
+
+    </view>
+    
+</theme>
