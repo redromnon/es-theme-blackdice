@@ -49,7 +49,7 @@ Version 1.0 - 19/1/2021
 
 ## Credits
 I would like to thank [mattrixk](https://github.com/mattrixk) for his excellent guide on creating themes for Emulationstation. 
-**The amazing logo artwork is taken from [Carbon theme](https://github.com/RetroPie/es-theme-carbon) made by Eric Hettervik. All credit goes to him.** 
+The amazing logo artwork is taken from [Carbon theme](https://github.com/RetroPie/es-theme-carbon) made by Eric Hettervik. All credit goes to him.
 
 ## License
 
